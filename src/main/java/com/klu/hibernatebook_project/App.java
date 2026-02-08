@@ -28,7 +28,7 @@ public class App {
         session.persist(b1);
 
         // --------------------
-        // 2. READ
+        // 2. READ.
         // --------------------
         Book book = session.find(Book.class, b1.getId());
         if (book != null) {
